@@ -1,0 +1,287 @@
+/* 
+		Credits
+animaciones de gradientes, 
+Gracias a https://www.gradient-animator.com/ 
+*/
+
+body{
+	text-align: center;
+	margin: 10px;
+	color: #efefef;
+	font-family: 'Concert One', cursive;
+
+	background: linear-gradient(153deg, #131213, #e0e0e0, #939696);
+	background-size: 600% 600%;
+
+	-webkit-animation: asd 7s ease infinite;
+	-moz-animation: asd 7s ease infinite;
+	animation: asd 7s ease infinite;
+}
+
+@-webkit-keyframes asd {
+    0%{background-position:31% 0%}
+    50%{background-position:70% 100%}
+    100%{background-position:31% 0%}
+}
+@-moz-keyframes asd {
+	0%{background-position:31% 0%}
+    50%{background-position:70% 100%}
+    100%{background-position:31% 0%}
+}
+
+@keyframes asd { 
+    0%{background-position:31% 0%}
+    50%{background-position:70% 100%}
+    100%{background-position:31% 0%}
+}
+
+
+
+
+header {
+	text-shadow: 3px 1px 2px #e58634;
+	width: 50%;
+	height: 20vh;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-radius: 10px;
+}
+
+img {
+	width: 5vw;
+}
+
+#sizehtmlimg {
+	width: 8vw;
+}
+
+
+#imgcss {
+	float: left; 
+	width: 13%;
+	margin-left: 30%;
+	margin-top: 10px;
+}
+#imghtml {
+	float: left;
+	width: 20%;
+	margin-top: 10px;
+}
+#imgjs {
+	float: left;
+	width: 10%;
+	margin-top: 10px;
+}
+
+
+#navgradi {
+	width: 80%; 
+	height: 7vh;
+	margin: 30px 10% 35px 10%;
+	min-height: 50px;
+	border-radius: 10px;
+
+	background: linear-gradient(291deg, #e58fa7, #8dd3e1, #85e598);
+	background-size: 500% 500%;
+
+	-webkit-animation: navgradi 7s ease infinite;
+	-moz-animation: navgradi 7s ease infinite;
+	animation: navgradi 7s ease infinite;
+}
+
+@-webkit-keyframes navgradi {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes navgradi {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes navgradi { 
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+
+
+
+
+a {
+	font-size: 2vw;
+	color: #212121;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a#hovercss:hover{
+	color: #0070BA;
+}
+a#hoverhtml:hover{
+	color: #E54D25;
+}
+a#hoverjs:hover{
+	color: #E5A329;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 25%;
+	border-radius: 10px;
+}
+
+
+
+article {
+	background-color: #212121bb;
+	width: 80%;
+	min-width: 500px;
+	border-radius: 10px;
+	padding: 0 1% 0 2%;
+	margin: 0 0 0 3%;
+	height: 370px;
+}
+
+article.articleTwo {
+	padding: 0 1% 0 1%;
+	margin: 25px 0 25px 13%;
+	height: 430px;
+}
+
+article.articleThree {
+	width: 80%;
+	height: 520px;
+}
+
+
+
+
+footer {
+	padding-top: 10px;
+	background-color: #21212177;
+	margin: 20px 10% 0 10%;
+	width: 80%; 
+	height: 5vh; 
+	border-radius: 10px;
+}
+
+a#feedback {
+	font-size: 20px;
+}
+
+a#feedback:hover {
+	padding: 0 2px 0 2px;
+	border-radius: 7px;
+	background-color: #fff;
+}
+
+
+
+.IMGs {
+	float: left;
+	background-color: #c1c1c1;
+	border-radius: 10px;
+	margin: 20px 5px 5px 15px;
+}
+
+.info {
+	text-align: left;
+	margin: 10px;
+	font-size: 1.3vw;
+}
+
+
+.asideH {
+	float: left;
+	background-color: #eeeeee11;
+	border-radius: 10px;
+	padding: 10px;
+	width: 28%;
+	text-align: left;
+	font-size: 1.3vw;
+	margin-top: 20px;
+}
+
+.asideC {
+	float: left;
+	background-color: #eeeeee11;
+	border-radius: 10px;
+	padding: 10px;
+	width: 39%;
+	text-align: left;
+	font-size: 1.3vw;
+}
+
+.asideJ {
+	float: left;
+	background-color: #eeeeee11;
+	border-radius: 10px;
+	padding: 10px;
+	width: 32%;
+	text-align: left;
+	font-size: 1.3vw;
+}
+
+/* custom scroll */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0d6d65; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #844eff; 
+}
+
+/*///////////////////////////*/
+/* Responsive */
+@media screen and (max-width: 1146px){
+	article {
+		height: 310px;
+	}
+
+	article.articleTwo {
+		height: 370px;
+	}
+
+	article.articleThree {
+		height: 450px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	article {
+		height: 250px;
+	}
+	article.articleTwo {
+		height: 300px;
+	}
+
+	article.articleThree {
+		height: 350px;
+	}
+
+	body {
+		min-width: 700px;
+	}
+
+	.info {
+		font-size: 10px;
+	}
+}
